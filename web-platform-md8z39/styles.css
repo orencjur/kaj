@@ -1,0 +1,51 @@
+
+  canvas {
+    display: block;
+    background-color: gray;
+    width: 100%;
+  }
+
+#mood_setter{
+    position:relative;
+    left: 20%;
+    
+}
+
+.tutorial {
+  stroke: black;
+  animation: fadeOut 10s;
+ 
+}
+
+.tutorial p{
+  font: 1em sans-serif;
+}
+.footer {
+  height: 50px;
+  margin-top: -50px;
+}
+
+@keyframes fadeOut {
+  30% {opacity:0;}
+  0% {opacity:1;}
+}
+
+@-moz-keyframes fadeOut {
+  30% {opacity:0;}
+  0% {opacity:1;}
+}
+
+@-webkit-keyframes fadeOut {
+  30% {opacity:0;}
+  0% {opacity:1;}
+}
+
+@-o-keyframes fadeOut {
+  30% {opacity:0;}
+  0% {opacity:1;}
+}
+
+@-ms-keyframes fadeOut {
+  30% {opacity:0;}
+  0% {opacity:1;}
+}
